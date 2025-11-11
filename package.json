@@ -22,5 +22,8 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-node": "^5.4.0"
+	},
+	"engines": {
+		"node": "^20.19 || ^22.12 || >=24"
 	}
 }
