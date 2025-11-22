@@ -1,11 +1,13 @@
 <script lang="ts">
-	import favicon from '$lib/assets/favicon.svg';
+  import "./layout.css";
+  import favicon from "$lib/assets/favicon.png";
 
-	let { children } = $props();
+  let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+  <link rel="icon" href={favicon} />
+  <title>Dunderligan</title>
 </svelte:head>
 
 {@render children()}
