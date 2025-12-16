@@ -30,7 +30,7 @@
 </script>
 
 <div
-  class="w-full h-screen flex flex-col items-center justify-center p-6 mx-auto max-w-xl text-center"
+  class="w-full h-screen flex flex-col items-center justify-center p-6 mx-auto max-w-xl text-center relative"
 >
   <img class="size-32" src="/logo.png" alt="Dunderligan" />
 
@@ -51,6 +51,13 @@
         >
       {/each}
     </div>
+  </div>
+
+  <div
+    class="absolute mx-auto bottom-12 flex items-center gap-4 text-gray-600 text-sm"
+  >
+    <img src="/lysator.svg" class="size-12" alt="Lysator" />
+    <span>Den här hemsidan driftas i samarbete med Lysator.</span>
   </div>
 </div>
 
